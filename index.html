@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html ng-app="clubTortank" ng-controller="mainCtrl as pc">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<!-- <link rel="stylesheet" type="text/css" href="css/axeldelcros-carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/lightgrid.css">
+	<link rel="stylesheet" type="text/css" href="style.css"> -->
+	<title>TORTANK CLUB {{pc.getMood()}}</title>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-ui-router.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/NoSleep.min.js"></script>
+	<!-- <script src="js/angular-cookies.js"></script> -->
+	<script type="text/javascript" src="js/mainCtrl.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/lightgrid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+	</header>
+	<style>
+	li{
+		list-style: none;
+		margin:0;
+	}
+	ul{
+		-webkit-margin-before:0;
+		-webkit-margin-after:0;
+		-webkit-margin-start:0;
+		-webkit-margin-after:;
+		-webkit-padding-start:0;
+	}
+	.red-button {
+		background-color: red;
+	}
+	.green-button {
+		background-color: green;
+	}
+	.pointer{
+		cursor: pointer;
+	}
+	.link{
+		cursor: pointer;
+		transition: all .3s;
+	}
+	.link:hover{
+		color:#8A8B8D;
+		transition: all .3s;
+	}
+	.btn{
+		padding:10px 15px;
+		background-color: #AFB1B1;
+		border:none;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-radius: 5px;
+		box-shadow: 0px 5px 5px #222;
+		transition: all .3s;
+	}
+	.btn:focus,.btn:active{
+		border:none;
+		outline:none;
+	}
+	.btn:hover{
+		cursor:pointer;
+		background-color: #8A8B8D;
+		transition: all .3s;
+	}
+	.big-btn{
+		box-shadow: 0px 5px 5px #222;
+		transition: all .3s;
+	}
+	.big-btn:hover{
+		box-shadow: 0px 10px 10px #222;
+		transition: all .3s;
+	}
+
+	.bigtime{
+		font-size: 4em;
+		text-shadow: 0px 5px 10px #111;
+	}
+</style>
+<div class="grid-s-12" style="background-color:#010101">
+	<div class="grid-s-2 grid-s-offset-1">
+		<h1>Club Tortank</h1>
+	</div>
+	<div class="grid-s-1 grid-s-offset-3">
+		<img src="./img/009.png" style="width:60px; height:60px;margin-left: -30px;margin-top: 10px;"/>
+	</div>
+</div>
+
+<div class="grid-s-10 grid-s-offset-1 grid-m-8 grid-m-offset-2">
+
+	<div class="gris-s-12">
+		<span class="bigtime center">
+			<span ng-if="pc.getHour(pc.timeTotal) > 0">{{pc.getHour(pc.timeTotal)}} : </span>
+			<span ng-if="pc.getMin(pc.timeTotal) > 0">{{pc.getMin(pc.timeTotal)}} : </span>
+			{{pc.getSeconds(pc.timeTotal)}}
+		</span>
+	</div>
+	<button class="btn" ng-click="pc.toggleTimer()">
+		<span ng-if="!pc.timerIsRunning && pc.timeTotal === 0">Start</span>
+		<span ng-if="!pc.timerIsRunning && pc.timeTotal !== 0">Resume</span>
+		<span ng-if="pc.timerIsRunning">Stop</span>
+	</button>
+	<button class="btn" ng-click="pc.tickClick()">
+		Save time
+	</button>
+	<ul>
+		<li ng-repeat="tick in pc.ticks">
+			<span ng-if="pc.getHour(tick) > 0">{{pc.getHour(tick)}} : </span>
+			{{pc.getMin(tick)}} : {{pc.getSeconds(tick)}}
+		</li>
+	</ul>
+
+
+	<div class="grid-s-12">
+		<ul style="margin-top:30px;">
+			<li ng-repeat="session in pc.sessions" ng-click="pc.selectedSession = session" style="margin-top:5px;font-size:1.5em;">
+				<span class="link">{{session.nom}}</span>
+			</li>
+		</ul>
+		<div ng-if="pc.selectedSession">
+			<h1>{{pc.selectedSession.nom}}</h1>
+			<em class="fa fa-clock-o"></em> 
+			<span ng-if="pc.getHour(pc.selectedSession.duration.min) > 0">
+			{{pc.getHour(pc.selectedSession.duration.min)}}:</span>
+			<span ng-if="pc.getMin(pc.selectedSession.duration.min) > 0">
+			{{pc.getMin(pc.selectedSession.duration.min)}}</span><span ng-if="pc.getSeconds(pc.selectedSession.duration.min) > 0">:{{pc.getSeconds(pc.selectedSession.duration.min)}}</span>min
+
+
+			<span ng-if="pc.selectedSession.duration.max">à
+				<span ng-if="pc.getHour(pc.selectedSession.duration.max) > 0">
+					{{pc.getHour(pc.selectedSession.duration.max)}} :
+				</span>
+				<span ng-if="pc.getMin(pc.selectedSession.duration.max) > 0">
+					{{pc.getMin(pc.selectedSession.duration.max)}}<span ng-if="pc.getHour(pc.selectedSession.duration.max) <= 0">min</span>
+					<span ng-if="pc.getHour(pc.selectedSession.duration.max) > 0">h</span>
+				</span>
+			</span>
+
+			<!-- EXOS -->
+			<div ng-repeat="content in pc.selectedSession.contents">
+				<div ng-repeat-start="i in pc.getNumberOfAmount(content)">
+					
+					<div ng-repeat="exercise in content.serie" class="grid-s-12" style="margin-top: 50px;height:100vh;">
+						<div class="center" style="margin-top:30px;margin-bottom: 100px;float: none;">
+							<div class="grid-s-4">{{pc.selectedSession.nom}}</div>
+							<div class="grid-s-4">Série N°{{$parent.$parent.$index + 1 + $parent.$index}}/{{pc.getSeries()}}</div>
+							<div class="grid-s-4">Exercice N°{{$index + 1}}/{{content.serie.length}}</div>
+						</div>
+						<h2 class="center">{{exercise.exerciseName}} <a style="float:right;color:white;" href="https://www.youtube.com/results?search_query={{exercise.exerciseName}}" target="_blank"><em class="fa fa-info-circle"></em></a></h2>
+						
+						<div ng-if="!exercise.unit" style="font-size: 2em;">
+							{{exercise.repetitions}} répétitions
+						</div>
+						<div ng-if="exercise.unit === 's'">
+							<button class="btn" ng-click="pc.setCountDown(exercise.repetitions)">Set</button>
+							<div class="gris-s-12 center">
+								<span class="bigtime">
+									<span ng-if="pc.getHour(pc.timeRemaining) > 0">{{pc.getHour(pc.timeRemaining)}} : </span>
+									<span ng-if="pc.getMin(pc.timeRemaining) > 0">{{pc.getMin(pc.timeRemaining)}} : </span>
+									{{pc.getSeconds(pc.timeRemaining)}}<span ng-if="pc.getMin(pc.timeRemaining) === 0">s</span>
+								</span>
+							</div>
+							<div ng-if="pc.timeRemaining !== 0" ng-class="{'red-button':pc.countDownIsRunning, 'green-button':!pc.countDownIsRunning}" style="border-radius: 400px;text-align: center;" ng-click="pc.toggleCountDown()" class="pointer grid-s-4 grid-m-2 grid-s-offset-4 grid-m-offset-5 center big-btn">
+								<div style="padding-top: 45px;padding-bottom: 45px;">
+									<!-- <button ng-click="pc.toggleCountDown()"> -->
+										<span ng-if="!pc.countDownIsRunning && pc.timeRemaining === pc.timeCountDown">START</span>
+										<span ng-if="!pc.countDownIsRunning && pc.timeRemaining !== pc.timeCountDown">RESUME</span>
+
+										<span ng-if="pc.countDownIsRunning">STOP</span>
+									</div>
+									<!-- </button> -->
+								</div>
+								<div ng-if="!pc.countDownIsRunning && pc.timeRemaining === 0" ng-class="{'red-button':pc.countDownIsRunning, 'green-button':!pc.countDownIsRunning}" style="border-radius: 400px;" ng-click="pc.resetCountDown(exercise.repetitions)"
+								class="pointer grid-s-4 grid-m-2 grid-s-offset-4 grid-m-offset-5 center big-btn">
+								<div style="padding-top: 45px;padding-bottom: 45px;">
+									RESET
+								</div>
+							</div>
+						</div>
+					</div>
+					<div ng-if="!pc.selectedSession.pauses">
+						<hr>
+					</div>
+
+				</div>
+				<div ng-repeat-end ng-if=" pc.selectedSession.pauses && pc.selectedSession.pauses.time">
+					<div class="grid-s-12" style="height:100vh;">
+						<!-- pc.selectedSession.contents[$parent.$index + 1] && $index !== content.amount && -->
+						<h2 class="center">PAUSE</h2>
+						<button class="btn" ng-click="pc.setCountDown(pc.selectedSession.pauses.time)">Set</button>
+						<div class="gris-s-12 center">	
+							<span class="bigtime">
+								<span ng-if="pc.getHour(pc.timeRemaining) > 0">{{pc.getHour(pc.timeRemaining)}} : </span>
+								<span ng-if="pc.getMin(pc.timeRemaining) > 0">{{pc.getMin(pc.timeRemaining)}} : </span>
+								{{pc.getSeconds(pc.timeRemaining)}}<span ng-if="pc.getMin(pc.timeRemaining) === 0">s</span>
+							</span>
+						</div>
+						<div ng-if="pc.timeRemaining !== 0" ng-class="{'red-button':pc.countDownIsRunning, 'green-button':!pc.countDownIsRunning}" style="border-radius: 400px;text-align: center;" ng-click="pc.toggleCountDown()" class="pointer grid-s-4 grid-m-2 grid-s-offset-4 grid-m-offset-5 center big-btn">
+							<div style="padding-top: 45px;padding-bottom: 45px;">
+								<!-- <button ng-click="pc.toggleCountDown()"> -->
+									<span ng-if="!pc.countDownIsRunning && pc.timeRemaining === pc.timeCountDown">START</span>
+									<span ng-if="!pc.countDownIsRunning && pc.timeRemaining !== pc.timeCountDown">RESUME</span>
+
+									<span ng-if="pc.countDownIsRunning">STOP</span>
+								</div>
+								<!-- </button> -->
+							</div>
+							<div ng-if="!pc.countDownIsRunning && pc.timeRemaining === 0" ng-class="{'red-button':pc.countDownIsRunning, 'green-button':!pc.countDownIsRunning}" style="border-radius: 400px;" ng-click="pc.resetCountDown(pc.selectedSession.pauses.time)"
+							class="pointer grid-s-4 grid-m-2 grid-s-offset-4 grid-m-offset-5 center big-btn">
+							<div style="padding-top: 45px;padding-bottom: 45px;">
+								RESET
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+</body>
+</html>

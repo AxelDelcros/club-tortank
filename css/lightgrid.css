@@ -1,0 +1,131 @@
+/* Responsive Grid */
+
+/* Smartphones screens */
+.grid-s-12{width:100%;}
+.grid-s-11{width:91.6666666667%;}
+.grid-s-10{width:83.3333333333%;}
+.grid-s-9{width:75%;}
+.grid-s-8{width:66.6666666666%;}
+.grid-s-7{width:58.3333333333%;}
+.grid-s-6{width:50%;}
+.grid-s-5{width:41.6666666667%;}
+.grid-s-4{width:33.3333333333%;}
+.grid-s-3{width:25%;}
+.grid-s-2{width:16.6666666667%;}
+.grid-s-1{width:8.3333333333%;}
+
+.grid-s-offset-1{margin-left:8.3333333333%;}.grid-s-offset-2{margin-left:16.6666666667%;}.grid-s-offset-3{margin-left:25%;}
+.grid-s-offset-4{margin-left:33.3333333333%;}.grid-s-offset-5{margin-left:41.6666666667%;}.grid-s-offset-6{margin-left:50%;}
+.grid-s-offset-7{margin-left:58.3333333333%;}.grid-s-offset-8{margin-left:66.6666666666%;}.grid-s-offset-9{margin-left:75%;}
+.grid-s-offset-10{margin-left:83.3333333333%;}.grid-s-offset-11{margin-left:91.6666666667%;}.grid-s-offset-12{margin-left:100%;}
+
+/* Tablets screens */
+@media screen and (min-width: 768px){
+.grid-m-12{width:100%;}
+.grid-m-11{width:91.6666666667%;}
+.grid-m-10{width:83.3333333333%;}
+.grid-m-9{width:75%;}
+.grid-m-8{width:66.6666666666%;}
+.grid-m-7{width:58.3333333333%;}
+.grid-m-6{width:50%;}
+.grid-m-5{width:41.6666666667%;}
+.grid-m-4{width:33.3333333333%;}
+.grid-m-3{width:25%;}
+.grid-m-2{width:16.6666666667%;}
+.grid-m-1{width:8.3333333333%;}
+
+.grid-m-offset-1{margin-left:8.3333333333%;}.grid-m-offset-2{margin-left:16.6666666667%;}.grid-m-offset-3{margin-left:25%;}
+.grid-m-offset-4{margin-left:33.3333333333%;}.grid-m-offset-5{margin-left:41.6666666667%;}.grid-m-offset-6{margin-left:50%;}
+.grid-m-offset-7{margin-left:58.3333333333%;}.grid-m-offset-8{margin-left:66.6666666666%;}.grid-m-offset-9{margin-left:75%;}
+.grid-m-offset-10{margin-left:83.3333333333%;}.grid-m-offset-11{margin-left:91.6666666667%;}.grid-m-offset-12{margin-left:100%;}
+
+}
+
+/* Small desktop screens */
+@media screen and (min-width: 992px){
+.grid-l-12{width:100%;}
+.grid-l-11{width:91.6666666667%;}
+.grid-l-10{width:83.3333333333%;}
+.grid-l-9{width:75%;}
+.grid-l-8{width:66.6666666666%;}
+.grid-l-7{width:58.3333333333%;}
+.grid-l-6{width:50%;}
+.grid-l-5{width:41.6666666667%;}
+.grid-l-4{width:33.3333333333%;}
+.grid-l-3{width:25%;}
+.grid-l-2{width:16.6666666667%;}
+.grid-l-1{width:8.3333333333%;}
+
+.grid-l-offset-1{margin-left:8.3333333333%;}.grid-l-offset-2{margin-left:16.6666666667%;}.grid-l-offset-3{margin-left:25%;}
+.grid-l-offset-4{margin-left:33.3333333333%;}.grid-l-offset-5{margin-left:41.6666666667%;}.grid-l-offset-6{margin-left:50%;}
+.grid-l-offset-7{margin-left:58.3333333333%;}.grid-l-offset-8{margin-left:66.6666666666%;}.grid-l-offset-9{margin-left:75%;}
+.grid-l-offset-10{margin-left:83.3333333333%;}.grid-l-offset-11{margin-left:91.6666666667%;}.grid-l-offset-12{margin-left:100%;}
+}
+
+/* Classic desktop screens */
+@media screen and (min-width: 1200px){
+.grid-xl-12{width:100%;}
+.grid-xl-11{width:91.6666666667%;}
+.grid-xl-10{width:83.3333333333%;}
+.grid-xl-9{width:75%;}
+.grid-xl-8{width:66.6666666666%;}
+.grid-xl-7{width:58.3333333333%;}
+.grid-xl-6{width:50%;}
+.grid-xl-5{width:41.6666666667%;}
+.grid-xl-4{width:33.3333333333%;}
+.grid-xl-3{width:25%;}
+.grid-xl-2{width:16.6666666667%;}
+.grid-xl-1{width:8.3333333333%;}
+
+.grid-xl-offset-1{margin-left:8.3333333333%;}.grid-xl-offset-2{margin-left:16.6666666667%;}.grid-xl-offset-3{margin-left:25%;}
+.grid-xl-offset-4{margin-left:33.3333333333%;}.grid-xl-offset-5{margin-left:41.6666666667%;}.grid-xl-offset-6{margin-left:50%;}
+.grid-xl-offset-7{margin-left:58.3333333333%;}.grid-xl-offset-8{margin-left:66.6666666666%;}.grid-xl-offset-9{margin-left:75%;}
+.grid-xl-offset-10{margin-left:83.3333333333%;}.grid-xl-offset-11{margin-left:91.6666666667%;}.grid-xl-offset-12{margin-left:100%;}
+}
+
+/* Retina screen and Higher */
+@media screen and (min-width: 1680px){
+.grid-xxl-12{width:100%;}
+.grid-xxl-11{width:91.6666666667%;}
+.grid-xxl-10{width:83.3333333333%;}
+.grid-xxl-9{width:75%;}
+.grid-xxl-8{width:66.6666666666%;}
+.grid-xxl-7{width:58.3333333333%;}
+.grid-xxl-6{width:50%;}
+.grid-xxl-5{width:41.6666666667%;}
+.grid-xxl-4{width:33.33333333%;}
+.grid-xxl-3{width:25%;}
+.grid-xxl-2{width:16.6666666667%;}
+.grid-xxl-1{width:8.3333333333%;}
+
+.grid-xxl-offset-1{margin-left:8.3333333333%;}.grid-xxl-offset-2{margin-left:16.6666666667%;}.grid-xxl-offset-3{margin-left:25%;}
+.grid-xxl-offset-4{margin-left:33.3333333333%;}.grid-xxl-offset-5{margin-left:41.6666666667%;}.grid-xxl-offset-6{margin-left:50%;}
+.grid-xxl-offset-7{margin-left:58.3333333333%;}.grid-xxl-offset-8{margin-left:66.6666666666%;}.grid-xxl-offset-9{margin-left:75%;}
+.grid-xxl-offset-10{margin-left:83.3333333333%;}.grid-xxl-offset-11{margin-left:91.6666666667%;}.grid-xxl-offset-12{margin-left:100%;}
+}
+
+
+.grid-s-12,.grid-s-11,.grid-s-10,.grid-s-9,.grid-s-8,.grid-s-7,.grid-s-6,.grid-s-5,.grid-s-4,.grid-s-3,.grid-s-2,.grid-s-1,
+.grid-m-12,.grid-m-11,.grid-m-10,.grid-m-9,.grid-m-8,.grid-m-7,.grid-m-6,.grid-m-5,.grid-m-4,.grid-m-3,.grid-m-2,.grid-m-1,
+.grid-l-12,.grid-l-11,.grid-l-10,.grid-l-9,.grid-l-8,.grid-l-7,.grid-l-6,.grid-l-5,.grid-l-4,.grid-l-3,.grid-l-2,.grid-l-1,
+.grid-xl-12,.grid-xl-11,.grid-xl-10,.grid-xl-9,.grid-xl-8,.grid-xl-7,.grid-xl-6,.grid-xl-5,.grid-xl-4,.grid-xl-3,.grid-xl-2,.grid-xl-1,
+.grid-xxl-12,.grid-xxl-11,.grid-xxl-10,.grid-xxl-9,.grid-xxl-8,.grid-xxl-7,.grid-xxl-6,.grid-xxl-5,.grid-xxl-4,.grid-xxl-3,.grid-xxl-2,.grid-xxl-1{
+	position: relative;
+	min-height: 1px;
+	float: left;
+}
+.grid-s-12 img,.grid-s-11 img,.grid-s-10 img,.grid-s-9 img,.grid-s-8 img,.grid-s-7 img,.grid-s-6 img,.grid-s-5 img,.grid-s-4 img,.grid-s-3 img,.grid-s-2 img,.grid-s-1 img,
+.grid-m-12 img,.grid-m-11 img,.grid-m-10 img,.grid-m-9 img,.grid-m-8 img,.grid-m-7 img,.grid-m-6 img,.grid-m-5 img,.grid-m-4 img,.grid-m-3 img,.grid-m-2 img,.grid-m-1 img,
+.grid-l-12 img,.grid-l-11 img,.grid-l-10 img,.grid-l-9 img,.grid-l-8 img,.grid-l-7 img,.grid-l-6 img,.grid-l-5 img,.grid-l-4 img,.grid-l-3 img,.grid-l-2 img,.grid-l-1 img,
+.grid-xl-12 img,.grid-xl-11 img,.grid-xl-10 img,.grid-xl-9 img,.grid-xl-8 img,.grid-xl-7 img,.grid-xl-6 img,.grid-xl-5 img,.grid-xl-4 img,.grid-xl-3 img,.grid-xl-2 img,.grid-xl-1 img,
+.grid-xxl-12 img,.grid-xxl-11 img,.grid-xxl-10 img,.grid-xxl-9 img,.grid-xxl-8 img,.grid-xxl-7 img,.grid-xxl-6 img,.grid-xxl-5 img,.grid-xxl-4 img,.grid-xxl-3 img,.grid-xxl-2 img,.grid-xxl-1 img{
+	max-width: 100%;
+}
+
+.row{
+	width:100%;
+	min-height: 1px;
+	clear: both;
+	display: table;
+  
+  }

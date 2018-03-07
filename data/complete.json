@@ -1,0 +1,750 @@
+{
+	"sessions": [{
+		"nom": "Échauffement",
+		"duration": {
+			"min": 288,
+			"max": null
+		},
+		"contents": [{
+			"amount": 1,
+			"serie": [{
+				"exerciseName": "Walking High Knees",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Backward Lunges",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Squats",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Inchworms",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Hip Openers",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Arm Circles Forward",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Arm Circles Backward",
+				"repetitions": 30,
+				"unit": "s"
+			}]
+
+		}]
+	}, {
+		"nom": "Étirement",
+		"duration": {
+			"min": 504,
+			"max": null
+		},
+		"contents": [{
+			"amount": 1,
+			"serie": [{
+				"exerciseName": "Child's pose",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Cobblers Stretch",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Kneeling Hip Flexor Stretch L",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Kneeling Hip Flexor Stretch R",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Wall Pectoral Stretch L",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Wall Pectoral Stretch R",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Lying Figure 4 Stretch L",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Lying Figure 4 Stretch R",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Shoulder Cross Stretch L",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Shoulder Cross Stretch R",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Overhead Triceps Stretch L",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Overhead Triceps Stretch R",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Standing Quadriceps Stretch L",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Standing Quadriceps Stretch R",
+				"repetitions": 30,
+				"unit": "s"
+			}]
+
+		}]
+	}, {
+		"nom": "Alpha",
+		"duration": {
+			"min": 300,
+			"max": 900
+		},
+		"contents": [{
+			"amount": 2,
+			"serie": [{
+				"exerciseName": "Walking High knees",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "High knees",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Knee push-ups",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Walking Lunges",
+				"repetitions": 20,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Beta",
+		"duration": {
+			"min": 180,
+			"max": 360
+		},
+		"contents": [{
+			"amount": 2,
+			"serie": [{
+				"exerciseName": "Squats",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Knee push-ups",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Leg Rises",
+				"repetitions": 10,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Charlie",
+		"duration": {
+			"min": 240,
+			"max": 420
+		},
+		"contents": [{
+			"amount": 3,
+			"serie": [{
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Knee push-ups",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Squats",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "4-Count Burpees",
+				"repetitions": 10,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Delta",
+		"duration": {
+			"min": 240,
+			"max": 660
+		},
+		"contents": [{
+			"amount": 3,
+			"serie": [{
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Tickets Jumps",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Rockstars",
+				"repetitions": 20,
+				"unit": null
+			}]
+		}],
+		"pauses": {
+			"time": 90
+		}
+	}, {
+		"nom": "Echo",
+		"duration": {
+			"min": 540,
+			"max": 600
+		},
+		"contents": [{
+			"amount": 3,
+			"serie": [{
+				"exerciseName": "Squatting quick feet",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Knee push-ups",
+				"repetitions": 15,
+				"unit": null
+			}, {
+				"exerciseName": "Sit-ups",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Walking Lunges",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 50,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Foxtrot",
+		"duration": {
+			"min": 540,
+			"max": 1020
+		},
+		"contents": [{
+			"amount": 3,
+			"serie": [{
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Squats",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Russian Twist Easy",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Skier abs",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Knee Push-ups",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Low Plank",
+				"repetitions": 30,
+				"unit": "s"
+			}]
+		}]
+	}, {
+		"nom": "Golf",
+		"duration": {
+			"min": 540,
+			"max": 900
+		},
+		"contents": [{
+			"amount": 4,
+			"serie": [{
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Knee Push-ups",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Mountain Climbers",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Wall Sit",
+				"repetitions": 30,
+				"unit": "s"
+			}, {
+				"exerciseName": "Up Down",
+				"repetitions": 10,
+				"unit": null
+			}]
+		}],
+		"pauses": {
+			"time": 90
+		}
+	}, {
+		"nom": "Hotel",
+		"duration": {
+			"min": 600,
+			"max": 960
+		},
+		"contents": [{
+			"amount": 4,
+			"serie": [{
+				"exerciseName": "Mountain Climbers",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Low Plank",
+				"repetitions": 60,
+				"unit": "s"
+			}, {
+				"exerciseName": "Sit-ups",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "High Plank Knee-to-elbow",
+				"repetitions": 20,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "India",
+		"duration": {
+			"min": 780,
+			"max": 1080
+		},
+		"contents": [{
+			"amount": 4,
+			"serie": [{
+				"exerciseName": "Lunges to front kick L",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Lunges to front kick R",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Narrow push-ups",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Push-ups",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Wide push-ups",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Sissors kicks",
+				"repetitions": 50,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Juliet",
+		"duration": {
+			"min": 900,
+			"max": 1800
+		},
+		"contents": [{
+			"amount": 4,
+			"serie": [{
+				"exerciseName": "Skier Jumps",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Side-to-side Push-ups",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Forward Lunges",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Up down",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Sissors kicks",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Bicycle Crunches",
+				"repetitions": 20,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Kilo",
+		"duration": {
+			"min": 900,
+			"max": 1200
+		},
+		"contents": [{
+			"amount": 2,
+			"serie": [{
+				"exerciseName": "Touchdown Lunges",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Star Jacks",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Inchworms",
+				"repetitions": 30,
+				"unit": null
+			}]
+		}, {
+			"amount": 1,
+			"serie": [{
+				"exerciseName": "Touchdown Lunges",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Star Jacks",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Inchworms",
+				"repetitions": 20,
+				"unit": null
+			}]
+		}, {
+			"amount": 1,
+			"serie": [{
+				"exerciseName": "Touchdown Lunges",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Star Jacks",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Inchworms",
+				"repetitions": 10,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Lima",
+		"duration": {
+			"min": 900,
+			"max": 1500
+		},
+		"contents": [{
+			"amount": 3,
+			"serie": [{
+				"exerciseName": "Jump Squats",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "4-Count Burpees",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Lunge & Twist L",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Lunge & Twist R",
+				"repetitions": 10,
+				"unit": null
+			}, {
+				"exerciseName": "Narrow Push-ups",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Wide Push-ups",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Bicycle Crunches",
+				"repetitions": 50,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Mike",
+		"duration": {
+			"min": 900,
+			"max": 1560
+		},
+		"contents": [{
+			"amount": 1,
+			"serie": [{
+				"exerciseName": "Push-ups side planks",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Skier Jumps",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Punches",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Up Downs",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Plié Squats",
+				"repetitions": 20,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "November",
+		"duration": {
+			"min": 1800,
+			"max": 3600
+		},
+		"contents": [{
+			"amount": 2,
+			"serie": [{
+				"exerciseName": "Low Plank",
+				"repetitions": 60,
+				"unit": "s"
+			}, {
+				"exerciseName": "Jump Squats",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Push-ups",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Mountain Climbers",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "High Plank",
+				"repetitions": 60,
+				"unit": "s"
+			}, {
+				"exerciseName": "Butt-kicker Jump squats",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Mountain Climbers",
+				"repetitions": 40,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Oscar",
+		"duration": {
+			"min": 1200,
+			"max": 2100
+		},
+		"contents": [{
+			"amount": 4,
+			"serie": [{
+				"exerciseName": "Walking Lunges",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Low Plank",
+				"repetitions": 60,
+				"unit": "s"
+			}, {
+				"exerciseName": "Push-ups",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "High Plank",
+				"repetitions": 60,
+				"unit": "s"
+			}]
+		}]
+	}, {
+		"nom": "Papa",
+		"duration": {
+			"min": 1620,
+			"max": 2700
+		},
+		"contents": [{
+			"amount": 2,
+			"serie": [{
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 100,
+				"unit": null
+			}, {
+				"exerciseName": "Flat Out Burpees",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Pike Push-ups",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Jump Squats",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Low Plank",
+				"repetitions": 90,
+				"unit": "s"
+			}, {
+				"exerciseName": "High Plank",
+				"repetitions": 90,
+				"unit": "s"
+			}]
+		}, {
+			"amount": 2,
+			"serie": [{
+				"exerciseName": "Jumping Jacks",
+				"repetitions": 100,
+				"unit": null
+			}, {
+				"exerciseName": "Flat Out Burpees",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Pike Push-ups",
+				"repetitions": 15,
+				"unit": null
+			}, {
+				"exerciseName": "Jump Squats",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Low Plank",
+				"repetitions": 60,
+				"unit": "s"
+			}, {
+				"exerciseName": "High Plank",
+				"repetitions": 60,
+				"unit": "s"
+			}]
+		}]
+	}, {
+		"nom": "Québec",
+		"duration": {
+			"min": 1980,
+			"max": 2340
+		},
+		"contents": [{
+			"amount": 5,
+			"serie": [{
+				"exerciseName": "Squats",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Sit-ups",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Lunge & Twist L",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Lunge & Twist R",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Jump Squats",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Ultimate Burpees",
+				"repetitions": 10,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Romeo",
+		"duration": {
+			"min": 1980,
+			"max": 2700
+		},
+		"contents": [{
+			"amount": 4,
+			"serie": [{
+				"exerciseName": "Side-to-side push-ups",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Wide High Knees",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Jump Lunges",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Triceps Dips",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Scissors Kicks",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Flat out Burpees",
+				"repetitions": 40,
+				"unit": null
+			}]
+		}]
+	}, {
+		"nom": "Sierra",
+		"duration": {
+			"min": 2100,
+			"max": 2520
+		},
+		"contents": [{
+			"amount": 5,
+			"serie": [{
+				"exerciseName": "Punches",
+				"repetitions": 50,
+				"unit": null
+			}, {
+				"exerciseName": "Squats to High Knee Jump",
+				"repetitions": 40,
+				"unit": null
+			}, {
+				"exerciseName": "Commander Push-ups",
+				"repetitions": 30,
+				"unit": null
+			}, {
+				"exerciseName": "Flat-out Burpees Tuck Jumps",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Low Plank Knee-to-elbow",
+				"repetitions": 20,
+				"unit": null
+			}, {
+				"exerciseName": "Skier abs",
+				"repetitions": 10,
+				"unit": null
+			}]
+		}]
+	}]
+}
