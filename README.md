@@ -1,5 +1,10 @@
 # Tortank club : Sport sessions app
 
+## WIP : adapt it in ReactNative to really play with native features
+Ideas to improve the app :
+* Use a library which support all kind of device
+* Access local storage (on smartphone) to store some stats (sessions durations etc.)
+
 ## Why this app ?
 Tired to pay a subscription to some very complete apps only to use a few basic features, I decided to make my own app, for me and my friends. Any resemblance to any other fitness / sport session app is totally adventitious ;)
 
@@ -9,7 +14,7 @@ Tired to pay a subscription to some very complete apps only to use a few basic f
   npm start
 ```
 ## Add your own sounds and music (motivational or jokes)
-For my friends and I, I added some jokes or motivationals sounds like me saying "You can do it !" or "You are so strong !" which are launched randomly whereas the exercises : You can add your own (sounds or music or whatever) in the /bonus/random folder. + for each random sound you add, you have to add it's name (perfectly written, it's case sensible) in the bonusHasard function, in the sources array :
+For my friends and I, I added some jokes or motivationals sounds like me saying "You can do it!" or "You are so strong!" which are launched randomly whereas the exercises : You can add your own (sounds or music or whatever) in the /bonus/random folder. + for each random sound you add, you have to add it's name (perfectly written, it's case sensible) in the bonusHasard function, in the sources array :
 
 ```javascript
   vm.bonusHasard = function(){
